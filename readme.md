@@ -16,8 +16,8 @@ iOS App Facebook Page:
 www.facebook.com/wpknliveapp
 
 iOS App Designer & Developer Info:  
-Patrick Serrano
-hello@patrickserrano.com
+Patrick Serrano  
+hello@patrickserrano.com  
 www.patrickserrano.com
 
 App Icon Notes:  
