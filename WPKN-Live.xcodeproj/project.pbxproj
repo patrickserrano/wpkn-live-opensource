@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F311B91D1780E0390034A139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B91C1780E0390034A139 /* Foundation.framework */; };
+		F311B91F1780E0390034A139 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B91E1780E0390034A139 /* CoreGraphics.framework */; };
+		F311B9211780E0390034A139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B9201780E0390034A139 /* UIKit.framework */; };
+		F311B9271780E0390034A139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F311B9251780E0390034A139 /* InfoPlist.strings */; };
+		F311B9291780E0390034A139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F311B9281780E0390034A139 /* main.m */; };
+		F311B93F1780E0390034A139 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B93E1780E0390034A139 /* XCTest.framework */; };
+		F311B9401780E0390034A139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B91C1780E0390034A139 /* Foundation.framework */; };
+		F311B9411780E0390034A139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B9201780E0390034A139 /* UIKit.framework */; };
+		F311B9491780E0390034A139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F311B9471780E0390034A139 /* InfoPlist.strings */; };
+		F311B94B1780E0390034A139 /* WPKN_LiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F311B94A1780E0390034A139 /* WPKN_LiveTests.m */; };
+		F311B9551780E0D20034A139 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F311B9541780E0D20034A139 /* bg.jpg */; };
+		F31ECED317E162E500D30614 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F31ECED117E162E500D30614 /* Icon.png */; };
+		F31ECED417E162E500D30614 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F31ECED217E162E500D30614 /* Icon@2x.png */; };
+		F31ECED617E162F800D30614 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = F31ECED517E162F800D30614 /* AppIcon60x60.png */; };
+		F3304D6918A040F500424754 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3304D6818A040F500424754 /* MessageUI.framework */; };
+		F3451944178A1D4B00983CB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3451943178A1D4B00983CB9 /* Images.xcassets */; };
+		F34EC12517DBF14C00394344 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F34EC12017DBF14C00394344 /* AppDelegate.m */; };
+		F34EC12617DBF14C00394344 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34EC12217DBF14C00394344 /* PlayerViewController.m */; };
+		F34EC12717DBF14C00394344 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34EC12417DBF14C00394344 /* WebViewController.m */; };
+		F3A08E7F178BA90500C9BBF9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A08E7E178BA90500C9BBF9 /* Default-568h@2x.png */; };
+		F3DB4B26184D90B000DD7E6D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DB4B25184D90B000DD7E6D /* SettingsViewController.m */; };
+		F3E65FCC17E28DDD00705F8A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E65FCB17E28DDD00705F8A /* Security.framework */; };
+		F3E65FCE17E28DE900705F8A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E65FCD17E28DE900705F8A /* SystemConfiguration.framework */; };
+		F3E72CDB17E1321800239A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E72CDA17E1321800239A2C /* Main.storyboard */; };
+		F3EABCFF1780E74E00BB4192 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EABCFE1780E74E00BB4192 /* CoreAudio.framework */; };
+		F3EABD011780E76B00BB4192 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EABD001780E76B00BB4192 /* MediaPlayer.framework */; };
+		F3EABD031780E77300BB4192 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EABD021780E77300BB4192 /* AVFoundation.framework */; };
+		F3EABD051780E78000BB4192 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EABD041780E78000BB4192 /* libz.dylib */; };
+		F3F8AF481833361800CB5AC1 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F8AF471833361800CB5AC1 /* iPadStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F311B9421780E0390034A139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F311B9111780E0390034A139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F311B9181780E0390034A139;
+			remoteInfo = "WPKN-Live";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F311B9191780E0390034A139 /* WPKN-Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WPKN-Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F311B91C1780E0390034A139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F311B91E1780E0390034A139 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F311B9201780E0390034A139 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F311B9241780E0390034A139 /* WPKN-Live-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPKN-Live-Info.plist"; sourceTree = "<group>"; };
+		F311B9261780E0390034A139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F311B9281780E0390034A139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F311B92A1780E0390034A139 /* WPKN-Live-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPKN-Live-Prefix.pch"; sourceTree = "<group>"; };
+		F311B93D1780E0390034A139 /* WPKN-LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WPKN-LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F311B93E1780E0390034A139 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F311B9461780E0390034A139 /* WPKN-LiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPKN-LiveTests-Info.plist"; sourceTree = "<group>"; };
+		F311B9481780E0390034A139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F311B94A1780E0390034A139 /* WPKN_LiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPKN_LiveTests.m; sourceTree = "<group>"; };
+		F311B9541780E0D20034A139 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		F31ECED117E162E500D30614 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F31ECED217E162E500D30614 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F31ECED517E162F800D30614 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		F3304D6818A040F500424754 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F3451943178A1D4B00983CB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		F34EC11F17DBF14C00394344 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F34EC12017DBF14C00394344 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F34EC12117DBF14C00394344 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		F34EC12217DBF14C00394344 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		F34EC12317DBF14C00394344 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F34EC12417DBF14C00394344 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F3A08E7E178BA90500C9BBF9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F3DB4B24184D90B000DD7E6D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F3DB4B25184D90B000DD7E6D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F3E65FCB17E28DDD00705F8A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F3E65FCD17E28DE900705F8A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F3E72CDA17E1321800239A2C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F3EABCFE1780E74E00BB4192 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F3EABD001780E76B00BB4192 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F3EABD021780E77300BB4192 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F3EABD041780E78000BB4192 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F3F8AF471833361800CB5AC1 /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPadStoryboard.storyboard; path = ../iPadStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F311B9161780E0390034A139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EABD031780E77300BB4192 /* AVFoundation.framework in Frameworks */,
+				F3EABCFF1780E74E00BB4192 /* CoreAudio.framework in Frameworks */,
+				F311B91F1780E0390034A139 /* CoreGraphics.framework in Frameworks */,
+				F311B91D1780E0390034A139 /* Foundation.framework in Frameworks */,
+				F3EABD051780E78000BB4192 /* libz.dylib in Frameworks */,
+				F3EABD011780E76B00BB4192 /* MediaPlayer.framework in Frameworks */,
+				F3304D6918A040F500424754 /* MessageUI.framework in Frameworks */,
+				F3E65FCC17E28DDD00705F8A /* Security.framework in Frameworks */,
+				F3E65FCE17E28DE900705F8A /* SystemConfiguration.framework in Frameworks */,
+				F311B9211780E0390034A139 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F311B93A1780E0390034A139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F311B93F1780E0390034A139 /* XCTest.framework in Frameworks */,
+				F311B9411780E0390034A139 /* UIKit.framework in Frameworks */,
+				F311B9401780E0390034A139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F311B9101780E0390034A139 = {
+			isa = PBXGroup;
+			children = (
+				F3A08E7E178BA90500C9BBF9 /* Default-568h@2x.png */,
+				F311B9221780E0390034A139 /* WPKN-Live */,
+				F311B9441780E0390034A139 /* WPKN-LiveTests */,
+				F311B91B1780E0390034A139 /* Frameworks */,
+				F311B91A1780E0390034A139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F311B91A1780E0390034A139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F311B9191780E0390034A139 /* WPKN-Live.app */,
+				F311B93D1780E0390034A139 /* WPKN-LiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F311B91B1780E0390034A139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3304D6818A040F500424754 /* MessageUI.framework */,
+				F3E65FCD17E28DE900705F8A /* SystemConfiguration.framework */,
+				F3E65FCB17E28DDD00705F8A /* Security.framework */,
+				F3EABD041780E78000BB4192 /* libz.dylib */,
+				F3EABD021780E77300BB4192 /* AVFoundation.framework */,
+				F3EABD001780E76B00BB4192 /* MediaPlayer.framework */,
+				F3EABCFE1780E74E00BB4192 /* CoreAudio.framework */,
+				F311B91C1780E0390034A139 /* Foundation.framework */,
+				F311B91E1780E0390034A139 /* CoreGraphics.framework */,
+				F311B9201780E0390034A139 /* UIKit.framework */,
+				F311B93E1780E0390034A139 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F311B9221780E0390034A139 /* WPKN-Live */ = {
+			isa = PBXGroup;
+			children = (
+				F31ECED117E162E500D30614 /* Icon.png */,
+				F31ECED217E162E500D30614 /* Icon@2x.png */,
+				F31ECED517E162F800D30614 /* AppIcon60x60.png */,
+				F3F8AF491833362600CB5AC1 /* Storyboards */,
+				F34EC11F17DBF14C00394344 /* AppDelegate.h */,
+				F34EC12017DBF14C00394344 /* AppDelegate.m */,
+				F34EC12117DBF14C00394344 /* PlayerViewController.h */,
+				F34EC12217DBF14C00394344 /* PlayerViewController.m */,
+				F3DB4B24184D90B000DD7E6D /* SettingsViewController.h */,
+				F3DB4B25184D90B000DD7E6D /* SettingsViewController.m */,
+				F34EC12317DBF14C00394344 /* WebViewController.h */,
+				F34EC12417DBF14C00394344 /* WebViewController.m */,
+				F3451943178A1D4B00983CB9 /* Images.xcassets */,
+				F311B9231780E0390034A139 /* Supporting Files */,
+			);
+			path = "WPKN-Live";
+			sourceTree = "<group>";
+		};
+		F311B9231780E0390034A139 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F311B9541780E0D20034A139 /* bg.jpg */,
+				F311B9241780E0390034A139 /* WPKN-Live-Info.plist */,
+				F311B9251780E0390034A139 /* InfoPlist.strings */,
+				F311B9281780E0390034A139 /* main.m */,
+				F311B92A1780E0390034A139 /* WPKN-Live-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F311B9441780E0390034A139 /* WPKN-LiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				F311B94A1780E0390034A139 /* WPKN_LiveTests.m */,
+				F311B9451780E0390034A139 /* Supporting Files */,
+			);
+			path = "WPKN-LiveTests";
+			sourceTree = "<group>";
+		};
+		F311B9451780E0390034A139 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F311B9461780E0390034A139 /* WPKN-LiveTests-Info.plist */,
+				F311B9471780E0390034A139 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3F8AF491833362600CB5AC1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F3E72CDA17E1321800239A2C /* Main.storyboard */,
+				F3F8AF471833361800CB5AC1 /* iPadStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F311B9181780E0390034A139 /* WPKN-Live */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F311B94E1780E0390034A139 /* Build configuration list for PBXNativeTarget "WPKN-Live" */;
+			buildPhases = (
+				F311B9151780E0390034A139 /* Sources */,
+				F311B9161780E0390034A139 /* Frameworks */,
+				F311B9171780E0390034A139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WPKN-Live";
+			productName = "WPKN-Live";
+			productReference = F311B9191780E0390034A139 /* WPKN-Live.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F311B93C1780E0390034A139 /* WPKN-LiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F311B9511780E0390034A139 /* Build configuration list for PBXNativeTarget "WPKN-LiveTests" */;
+			buildPhases = (
+				F311B9391780E0390034A139 /* Sources */,
+				F311B93A1780E0390034A139 /* Frameworks */,
+				F311B93B1780E0390034A139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F311B9431780E0390034A139 /* PBXTargetDependency */,
+			);
+			name = "WPKN-LiveTests";
+			productName = "WPKN-LiveTests";
+			productReference = F311B93D1780E0390034A139 /* WPKN-LiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F311B9111780E0390034A139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WPKN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Patrick Serrano";
+				TargetAttributes = {
+					F311B9181780E0390034A139 = {
+						DevelopmentTeam = 2ZQL83VDW2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F311B93C1780E0390034A139 = {
+						TestTargetID = F311B9181780E0390034A139;
+					};
+				};
+			};
+			buildConfigurationList = F311B9141780E0390034A139 /* Build configuration list for PBXProject "WPKN-Live" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F311B9101780E0390034A139;
+			productRefGroup = F311B91A1780E0390034A139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F311B9181780E0390034A139 /* WPKN-Live */,
+				F311B93C1780E0390034A139 /* WPKN-LiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F311B9171780E0390034A139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31ECED617E162F800D30614 /* AppIcon60x60.png in Resources */,
+				F3451944178A1D4B00983CB9 /* Images.xcassets in Resources */,
+				F31ECED417E162E500D30614 /* Icon@2x.png in Resources */,
+				F3E72CDB17E1321800239A2C /* Main.storyboard in Resources */,
+				F311B9271780E0390034A139 /* InfoPlist.strings in Resources */,
+				F31ECED317E162E500D30614 /* Icon.png in Resources */,
+				F311B9551780E0D20034A139 /* bg.jpg in Resources */,
+				F3A08E7F178BA90500C9BBF9 /* Default-568h@2x.png in Resources */,
+				F3F8AF481833361800CB5AC1 /* iPadStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F311B93B1780E0390034A139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F311B9491780E0390034A139 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F311B9151780E0390034A139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34EC12717DBF14C00394344 /* WebViewController.m in Sources */,
+				F3DB4B26184D90B000DD7E6D /* SettingsViewController.m in Sources */,
+				F34EC12517DBF14C00394344 /* AppDelegate.m in Sources */,
+				F311B9291780E0390034A139 /* main.m in Sources */,
+				F34EC12617DBF14C00394344 /* PlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F311B9391780E0390034A139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F311B94B1780E0390034A139 /* WPKN_LiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F311B9431780E0390034A139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F311B9181780E0390034A139 /* WPKN-Live */;
+			targetProxy = F311B9421780E0390034A139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F311B9251780E0390034A139 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F311B9261780E0390034A139 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F311B9471780E0390034A139 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F311B9481780E0390034A139 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F311B94C1780E0390034A139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D5A466C6-FC06-416E-BE00-92658EB63EEE";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F311B94D1780E0390034A139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "D5A466C6-FC06-416E-BE00-92658EB63EEE";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F311B94F1780E0390034A139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ReleaseAppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Patrick Serrano (9H445VPN42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Patrick Serrano (9H445VPN42)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/patrickserrano/Dropbox/Developer/iOS/WPKN-Live",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPKN-Live/WPKN-Live-Prefix.pch";
+				INFOPLIST_FILE = "WPKN-Live/WPKN-Live-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/patrickserrano/Dropbox/Developer/iOS/WPKN-Live/Flurry",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7AF68B45-A79E-41D6-9A0A-778CEA244393";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F311B9501780E0390034A139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ReleaseAppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Patrick Serrano (2ZQL83VDW2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Patrick Serrano (2ZQL83VDW2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/patrickserrano/Dropbox/Developer/iOS/WPKN-Live",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPKN-Live/WPKN-Live-Prefix.pch";
+				INFOPLIST_FILE = "WPKN-Live/WPKN-Live-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/patrickserrano/Dropbox/Developer/iOS/WPKN-Live/Flurry",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1EA74543-94B0-4416-A738-06A09749E5C5";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F311B9521780E0390034A139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPKN-Live.app/WPKN-Live";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPKN-Live/WPKN-Live-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WPKN-LiveTests/WPKN-LiveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F311B9531780E0390034A139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WPKN-Live.app/WPKN-Live";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPKN-Live/WPKN-Live-Prefix.pch";
+				INFOPLIST_FILE = "WPKN-LiveTests/WPKN-LiveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F311B9141780E0390034A139 /* Build configuration list for PBXProject "WPKN-Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F311B94C1780E0390034A139 /* Debug */,
+				F311B94D1780E0390034A139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F311B94E1780E0390034A139 /* Build configuration list for PBXNativeTarget "WPKN-Live" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F311B94F1780E0390034A139 /* Debug */,
+				F311B9501780E0390034A139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F311B9511780E0390034A139 /* Build configuration list for PBXNativeTarget "WPKN-LiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F311B9521780E0390034A139 /* Debug */,
+				F311B9531780E0390034A139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F311B9111780E0390034A139 /* Project object */;
+}
