@@ -94,15 +94,18 @@
     self.shareApplication.networkActivityIndicatorVisible = YES;
 }
 
-- (IBAction)webBack:(id)sender {
+- (IBAction)webBack:(id)sender
+{
     [self.webView goBack];
 }
 
-- (IBAction)webForward:(id)sender {
+- (IBAction)webForward:(id)sender
+{
     [self.webView goForward];
 }
 
-- (IBAction)webReload:(id)sender {
+- (IBAction)webReload:(id)sender
+{
     [self.webView reload];
     [self.spinner setHidden:NO];
 }

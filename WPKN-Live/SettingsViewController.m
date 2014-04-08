@@ -51,7 +51,8 @@
 #pragma -
 #pragma mark - IBActions
 
-- (IBAction)contackWPKN:(id)sender {
+- (IBAction)contackWPKN:(id)sender
+{
     NSString *subject = [NSString stringWithFormat:@"WPKN is my favorite station!"];
     NSArray *addresses = [NSArray arrayWithObject:@"gm@wpkn.org"];
     NSString *messageBody = [NSString stringWithFormat:@"You guys rock!"];
@@ -78,7 +79,8 @@
     }
 }
 
-- (IBAction)developerContact:(id)sender {
+- (IBAction)developerContact:(id)sender
+{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://patrickserrano.com"]];
 }
 
@@ -105,26 +107,31 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (IBAction)facebookButton:(id)sender {
+- (IBAction)facebookButton:(id)sender
+{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.facebook.com/groups/wpknradio/?fref=ts"]];
 }
 
-- (IBAction)twitterButton:(id)sender {
+- (IBAction)twitterButton:(id)sender
+{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/WPKNradio"]];
 }
 
-- (IBAction)flickrButton:(id)sender {
+- (IBAction)flickrButton:(id)sender
+{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.flickr.com/search/?q=wpkn"]];
 }
 
-- (IBAction)youtubeButton:(id)sender {
+- (IBAction)youtubeButton:(id)sender
+{
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.youtube.com/user/wpknradio"]];
 }
 
 #pragma -
 #pragma mark - Helper Methods
 
-- (IBAction)selectQuality:(id)sender {
+- (IBAction)selectQuality:(id)sender
+{
     PlayerViewController *pvc = [self.tabBarController.viewControllers objectAtIndex:0];
     if (self.qualitySegmentControl.selectedSegmentIndex == 0) {
         [pvc stop];

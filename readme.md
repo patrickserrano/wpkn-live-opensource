@@ -6,6 +6,8 @@ WPKN Live is the best way to stream your favorite WPKN (89.5FM) programming whil
 
 WPKN broadcasts live at 89.5 FM in Bridgeport, Connecticut and on the internet as a live audio stream at WPKN.org or with the WPKN Live app.
 
+You can find WPKN on the web at WPKN.org.
+
 iOS App URL:  
 https://itunes.apple.com/us/app/wpkn-live/id704986292?ls=1&mt=8?at=10lc6B
 
